@@ -2,8 +2,9 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: your@email.com</p>
-      <p>GitHub: github.com/yourname</p>
+      <p>Email: sonal.obedient@gmail.com</p>
+      <p>GitHub: https://github.com/SonalMahe</p>
+      <p > LinkedIn: https://www.Linkedin.com/in/sonal-maheshwari</p>
     </section>
   );
 };

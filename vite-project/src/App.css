@@ -1,42 +1,109 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url("/images/BGimage.avif");
+  background-size: cover;
+  background-position: center;
+  background-color:rgb(237, 234, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 60px 20px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/*
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
-  padding: 2em;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+}
+  */
+
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+/*
+.project-card-detail {
+  width: 30%;
+  margin-bottom: 15px;
 }
 
-.read-the-docs {
-  color: #888;
+.project-video {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}*/
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-auto-rows: auto;                 /* creates 2 rows automatically */
+  gap: 30px;
+  align-items: stretch;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Video container */
+.project-card-detail {
+  width: 100%;
+  height: 380px;       /* adjust height as needed */
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Video */
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
