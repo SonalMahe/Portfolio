@@ -8,14 +8,12 @@ const Hero = () => {
         <p>Frontend | React Developer</p>
         <p>
           I’m a frontend developer who enjoys building visually engaging, user-friendly digital experiences.
-          Curiosity and creativity drive my approach to learning and problem-solving.
-           Beyond coding, I find inspiration in nature,traveling,cooking, and painting—interests that influence how I think, design, and create.</p>
-        <ul> Frontend
-
-          Developer with a passion for building responsive, user-friendly web applications using React, JavaScript, and modern CSS.
-          <li>🎓 Background in MBA, bringing strong management and problem-solving skills</li>
-          <li>🎨 Experience with UI/UX & Figma</li>
-          <li>🌍 Fluent in English | Intermediate Swedish</li>
+          Beyond coding, I find inspiration in nature, traveling, cooking and painting that influence how I think, design, and create.</p>
+        <ul> 
+          <li>🎓 Background in MBA, bringing strong management and problem-solving skills.</li>
+          <li>🎨 Experience with UI/UX & Figma.</li>
+          <li>💻 Passionate about building responsive web applications using React, JavaScript, and modern CSS.</li>
+          <li>🌍 Fluent in English | Intermediate Swedish.</li>
           <li>🚀 Motivated to grow through real-world projects.</li>
         </ul>
       </div>

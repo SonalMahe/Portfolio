@@ -8,8 +8,10 @@ import {
     FaGitAlt,
     FaGithub,
     FaFigma,
+    FaFacebook,
+    FaInstagram,
 } from "react-icons/fa";
-import {  SiSass} from "react-icons/si";
+import { SiSass } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -34,8 +36,9 @@ const Skills = () => {
             <div className="connect-section">
                 <h3>Let’s Connect</h3>
                 <p>
-                    I enjoy connecting with people from all backgrounds. If you have ideas,
-                    want to collaborate, or just want to chat, my inbox is always open!
+                    Interested in collaborating, discussing frontend development, or exploring new opportunities?
+                    I’m always open to connecting with fellow developers, designers, and professionals.
+                    Let’s build something great together.
                 </p>
 
                 <div className="social-links">
@@ -46,13 +49,26 @@ const Skills = () => {
                     >
                         <FaLinkedin /> LinkedIn
                     </a>
-
                     <a
                         href="https://github.com/SonalMahe"
                         target="_blank"
                         rel="Github"
                     >
                         <FaGithub /> GitHub
+                    </a>
+                    <a
+                        href="https://facebook.com/SonalArunMaheshwari"
+                        target="_blank"
+                        rel="Facebook"
+                    >
+                        <FaFacebook />Facebook
+                    </a>
+                    <a
+                        href="https://instagram.com/sonipartnersonal"
+                        target="_blank"
+                        rel="instagram"
+                    >
+                        <FaInstagram /> Instagram
                     </a>
                 </div>
             </div>

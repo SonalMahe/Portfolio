@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: rgb(245, 200, 181);
 }
+/*Navbar-section*/
 
 .navbar {
   display: flex;
@@ -23,6 +24,8 @@ body {
   text-decoration: none;
 }
 
+
+/*About me Section*/
 .hero {
   height: 90vh;
   background-image: url("/public/BG1.jpg");
@@ -65,20 +68,6 @@ section {
   padding: 0;
 }
 
-/*
-.project-card-detail {
-  width: 30%;
-  margin-bottom: 15px;
-}
-
-.project-video {
-  width: 30%;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-}*/
-
-
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -87,6 +76,10 @@ section {
   /* creates 2 rows automatically */
   gap: 30px;
   align-items: stretch;
+}
+h3{
+  font-weight: bold;
+  color: #f24e1e;
 }
 
 /* Card styling */
@@ -100,7 +93,7 @@ section {
 /* Video container */
 .project-card-detail {
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin-bottom: 15px;
   overflow: hidden;
   border-radius: 10px;
@@ -173,16 +166,16 @@ textarea {
   padding: 12px;
   font-size: 15px;
   font-weight: 500;
-  background: #4f46e5;
+  background: #7b3007;
   color: #ffffff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: rgb(2, 2, 122) 0.2s ease, transform 0.1s ease;
+  transition: rgb(121, 78, 19) 0.2s ease, transform 0.1s ease;
 }
 
 .button-primary:hover {
-  background: #4338ca;
+  background: #422c12da;
 }
 
 .button-primary:active {
@@ -242,4 +235,14 @@ textarea {
 /* Sass */
 .skill-card:nth-child(8) .skill-icon {
   color: #cc6699;
+}
+
+
+/* Footer -section */
+.footer{
+   padding: 20px;
+  background: rgb(137, 43, 3);
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

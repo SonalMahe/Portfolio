@@ -1,44 +1,50 @@
 const Contact = () => {
   return (
-    <section id="contact">
-      <h2>Contact Us</h2>
+    <>
+      <section id="contact">
+        <h2>Contact Us</h2>
 
-      <div className="contact-form">
-        <form action="https://formspree.io/f/xpwrakyk" method="POST">
-          
-          <div className="form-group">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              required
-            />
-          </div>
+        <div className="contact-form">
+          <form action="https://formspree.io/f/xpwrakyk" method="POST">
+            
+            <div className="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+              />
+            </div>
 
-          <div className="form-group">
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              required
-            />
-          </div>
+            <div className="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
 
-          <div className="form-group">
-            <textarea
-              name="message"
-              placeholder="Message"
-              required
-            />
-          </div>
+            <div className="form-group">
+              <textarea
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
 
-          <button type="submit" className="button-primary">
-            Send Message
-          </button>
+            <button type="submit" className="button-primary">
+              Send Message
+            </button>
 
-        </form>
-      </div>
-    </section>
+          </form>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <p>Created by Sonal Maheshwari © 2026</p>
+      </footer>
+    </>
   );
 };
 
