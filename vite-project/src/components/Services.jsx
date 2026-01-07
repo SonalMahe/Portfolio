@@ -3,7 +3,7 @@ import "../assets/images/Web.svg";
 const Services = () => {
   return (
     <section id="services">
-      <h2>Services</h2>
+      <h2>Specialized In-</h2>
       <div className="cards">
         <article className="services__item">
         <div>
@@ -31,7 +31,7 @@ const Services = () => {
 
 <article className="services__item">
         <div>
-          <img src="../src/assets/images/web.svg" alt="web"></img>
+          <img src="../src/assets/images/React-2.svg" alt="web"></img>
         </div>
         <div className="services__title">React Applications </div>
           <br />

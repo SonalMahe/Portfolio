@@ -81,8 +81,8 @@ section {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* 3 columns */
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns */
   grid-auto-rows: auto;
   /* creates 2 rows automatically */
   gap: 30px;
@@ -94,14 +94,13 @@ section {
   background: rgb(250, 247, 247);
   border-radius: 12px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #1a1919;
 }
 
 /* Video container */
 .project-card-detail {
   width: 100%;
-  height: 380px;
-  /* adjust height as needed */
+  height: 400px;
   margin-bottom: 15px;
   overflow: hidden;
   border-radius: 10px;
