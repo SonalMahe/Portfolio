@@ -28,7 +28,7 @@ body {
 /*About me Section*/
 .hero {
   height: 90vh;
-  background-image: url("/public/BG1.jpg");
+  background-image: url("/BG1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

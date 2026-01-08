@@ -2,7 +2,7 @@ import { useRef } from "react";
 import GenesisDesign from "../assets/videos/GenesisDesign.mp4";
 import TasteBuds from "../assets/videos/TasteBuds.mp4";
 import Bhromaon from "../assets/videos/Bhromaon.mp4";
-import Netplay from "../assets/videos/NetplayUIUX.mp4";
+import Netplay from "../assets/videos/Netplay.mp4";
 
 const Projects = () => {
     const genesisVideoRef = useRef(null);
