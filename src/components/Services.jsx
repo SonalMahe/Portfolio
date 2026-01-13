@@ -1,4 +1,4 @@
-import "../assets/images/Web.svg";
+
 
 const Services = () => {
   return (
@@ -7,7 +7,7 @@ const Services = () => {
       <div className="cards">
         <article className="services__item">
           <div>
-            <img src="../src/assets/images/web.svg" alt="web"></img>
+            <img src="/Web.svg" alt="web"></img>
           </div>
           <div className="services__title">Web Development HTML/CSS/JS </div>
           <br />
@@ -19,7 +19,7 @@ const Services = () => {
 
         <article className="services__item">
           <div>
-            <img src="../src/assets/images/web.svg" alt="web"></img>
+            <img src="/Web.svg" alt="web"></img>
           </div>
           <div className="services__title">UI/UX Design </div>
           <br />
@@ -31,7 +31,7 @@ const Services = () => {
 
         <article className="services__item">
           <div>
-            <img src="../src/assets/images/React-2.svg" alt="web"></img>
+            <img src="/React-2.svg" alt="web"></img>
           </div>
           <div className="services__title">React Applications </div>
           <br />
