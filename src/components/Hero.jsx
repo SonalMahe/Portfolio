@@ -3,7 +3,9 @@
 const Hero = () => {
   return (
     <section id="hero" className="hero">
+      <div className="hero-container">
       <div className="herosize">
+      
         <h1>Sonal Maheshwari</h1>
         <p>Frontend | React Developer</p>
         <p>
@@ -17,6 +19,13 @@ const Hero = () => {
           <li>🚀 Motivated to grow through real-world projects.</li>
           📫 Open to frontend / React developer roles and freelance projects.
         </ul>
+</div>
+        {/* Profile Image */}
+        <img 
+          src="./src/assets/images/profile.JPG" 
+          alt="Sonal Maheshwari" 
+          className="hero-profile-pic" 
+        />
       </div>
     </section>
   );
