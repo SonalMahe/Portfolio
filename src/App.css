@@ -37,7 +37,18 @@ a:hover{
   flex-direction: column;
   color:#ca0c42;
 }
-
+.hero-profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.hero-container {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Push text left and image right */
+  gap: 3rem; /* Optional spacing */
+}
 section {
   padding: 60px 20px;
   text-align: center;

@@ -50,7 +50,7 @@ const Projects = () => {
                 </div>
 
                 <div className="card">
-                    <h3>Memory Card Game</h3>
+                    <h3>Pokemon Memory Game</h3>
 
                     <div className="project-card-detail">
                         <video
