@@ -34,7 +34,7 @@ const Skills = () => {
 
             {/* Connect Section */}
             <div className="connect-section">
-                <h3>Let’s Connect</h3>
+                <h2>Let’s Connect</h2>
                 <p>
                     Interested in collaborating, discussing frontend development, or exploring new opportunities?
                     I’m always open to connecting with fellow developers, designers, and professionals.

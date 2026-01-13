@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(245, 200, 181);
+  background-color: rgb(247, 193, 193);
 }
 /*Navbar-section*/
 
@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background: rgb(137, 43, 3);
+  background: rgb(105, 22, 50);
   color: white;
 }
 
@@ -23,17 +23,19 @@ body {
   color: white;
   text-decoration: none;
 }
-
+a:hover{
+  background-color: rgb(233, 81, 121);
+}
 
 /*About me Section*/
 .hero {
   height: 90vh;
-  background-image: url("/BG1.jpg");
+  background-image: url("/bg2.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  color: brown;
+  color:#ca0c42;
 }
 
 section {
@@ -79,12 +81,12 @@ section {
 }
 h3{
   font-weight: bold;
-  color: #f24e1e;
+  color: #ca0c42;
 }
 
 /* Card styling */
 .card {
-  background: rgb(250, 247, 247);
+  background: rgb(245, 243, 243);
   border-radius: 12px;
   padding: 20px;
   border: 1px solid #1a1919;
@@ -166,7 +168,7 @@ textarea {
   padding: 12px;
   font-size: 15px;
   font-weight: 500;
-  background: #7b3007;
+  background: rgb(96, 2, 34);
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -187,7 +189,7 @@ textarea {
   background-color: #f4efef;
   padding: 50px 55px;
   border-radius: 8px;
-  color: brown;
+  color: rgb(96, 2, 34);
 }
 
 .services__title {
@@ -241,7 +243,7 @@ textarea {
 /* Footer -section */
 .footer{
    padding: 20px;
-  background: rgb(137, 43, 3);
+  background:  rgb(105, 22, 50);
   color: white;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
