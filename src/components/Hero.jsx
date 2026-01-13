@@ -22,7 +22,7 @@ const Hero = () => {
 </div>
         {/* Profile Image */}
         <img 
-          src="./src/assets/images/profile.JPG" 
+          src="/profile.JPG" 
           alt="Sonal Maheshwari" 
           className="hero-profile-pic" 
         />
