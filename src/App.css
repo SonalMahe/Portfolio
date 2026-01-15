@@ -9,8 +9,11 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content:space-around;
+  align-items: center;
+  padding: 10px;
+  margin-right: 50px;
+
   background: rgb(105, 22, 50);
   color: white;
   position: fixed;
@@ -35,7 +38,7 @@ body {
 }
 
 a:hover {
-  background-color: rgb(233, 81, 121);
+  background-color: rgb(49, 26, 32);
 }
 
 /*About me Section*/
