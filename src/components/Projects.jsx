@@ -112,7 +112,7 @@ const Projects = () => {
                         <li>🎯 <strong>Focus:</strong> User experience, accessibility, and visual consistency across devices</li>
                         <li>🛠 <strong>Tech:</strong> HTML5, CSS3</li>
                     </ul>
-                    <a href="https://sonalmahe.github.io/RestaurantProject/" target="_blank">Live</a> |{" "}
+                    <a href="https://dancing-pegasus-d22bb8.netlify.app/" target="_blank">Live</a> |{" "}
                     <a href="https://github.com/SonalMahe/RestaurantProject" target="_blank">GitHub</a>
                 </div>
 
