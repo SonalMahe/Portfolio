@@ -15,9 +15,9 @@ const Hero = () => {
           <li>🎓 Background in MBA & SAP(FICO) bringing strong management and problem-solving skills.</li>
           <li>🎨 Experience with UI/UX & Figma.</li>
           <li>💻 Passionate about building responsive web applications using React, JavaScript, and modern CSS.</li>
-          <li>🌍 Fluent in English | Intermediate Swedish.</li>
+          <li>🌍 Fluent in English, Hindi| Intermediate Swedish.</li>
           <li>🚀 Motivated to grow through real-world projects.</li>
-          📫 Open to frontend / React developer roles and freelance projects.
+          📫 Open to Full Stack Developer / React developer roles and freelance projects.
         </ul>
 </div>
         {/* Profile Image */}
