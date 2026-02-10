@@ -11,6 +11,7 @@ import {
     FaFacebook,
     FaInstagram,
     FaBootstrap,
+    FaNodeJs,
 } from "react-icons/fa";
 import { SiSass } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
@@ -29,6 +30,9 @@ const Skills = () => {
                 <Skill icon={<FaBootstrap />} label="Bootstrap" />
                 <Skill icon={<FaJsSquare />} label="JavaScript" />
                 <Skill icon={<FaReact />} label="React" />
+                <Skill icon={<FaTypescript />} label="Typescript" />
+                <Skill icon={<FaNodeJs />} label="Node.js" />
+                
                 <Skill icon={<FaGitAlt />} label="Git & GitHub" />
                 <Skill icon={<MdDesignServices />} label="UX/UI Design" />
                 <Skill icon={<SiSass />} label="Sass" />
