@@ -9,8 +9,7 @@ const Hero = () => {
         <h1>Sonal Maheshwari</h1>
         <p>Full Stack Developer</p>
         <p>
-          I’m a full stack developer who enjoys building visually engaging, user-friendly digital experiences backed by solid, well-tested APIs.
-          Beyond coding, I find inspiration in nature, traveling, cooking and painting that influence how I think, design, and create.</p>
+          I’m a full stack developer who enjoys building visually engaging, user-friendly digital experiences backed by solid, well-tested APIs.</p>
         <ul>
           <li>🎓 Background in MBA & SAP(FICO) bringing strong management and problem-solving skills.</li>
           <li>💻 Building responsive UIs with React, JavaScript, and modern CSS.</li>
