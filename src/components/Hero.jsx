@@ -7,17 +7,17 @@ const Hero = () => {
       <div className="herosize">
       
         <h1>Sonal Maheshwari</h1>
-        <p>Frontend | React Developer</p>
+        <p>Full Stack Developer</p>
         <p>
-          I’m a frontend developer who enjoys building visually engaging, user-friendly digital experiences.
+          I’m a full stack developer who enjoys building visually engaging, user-friendly digital experiences backed by solid, well-tested APIs.
           Beyond coding, I find inspiration in nature, traveling, cooking and painting that influence how I think, design, and create.</p>
-        <ul> 
+        <ul>
           <li>🎓 Background in MBA & SAP(FICO) bringing strong management and problem-solving skills.</li>
-          <li>🎨 Experience with UI/UX & Figma.</li>
-          <li>💻 Passionate about building responsive web applications using React, JavaScript, and modern CSS.</li>
-          <li>🌍 Fluent in English, Hindi| Intermediate Swedish.</li>
+          <li>💻 Building responsive UIs with React, JavaScript, and modern CSS.</li>
+          <li>⚙️ Building REST APIs with Node.js, Express, MongoDB & Prisma, with authentication and testing.</li>
+          <li>🌍 Fluent in English | Intermediate Swedish.</li>
           <li>🚀 Motivated to grow through real-world projects.</li>
-          📫 Open to Full Stack Developer / React developer roles and freelance projects.
+          📫 Open to full stack developer roles and freelance projects.
         </ul>
 </div>
         {/* Profile Image */}

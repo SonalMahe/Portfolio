@@ -18,6 +18,46 @@ const Projects = () => {
 
             <div className="cards">
 
+                {/* Job Application Tracking System */}
+                <div className="card">
+                    <h3>Job Application Tracking System</h3>
+                    <ul>
+                        <li>📌 <strong>Challenge:</strong> Managing job postings, applicants, applications, and interviews through a secure, production-grade full stack app</li>
+                        <li>💡 <strong>Solution:</strong> Built a REST API with Node.js, Express 5 and Prisma 6 on PostgreSQL, paired with a React 19 + Vite + TypeScript frontend</li>
+                        <li>✨ <strong>Features:</strong> Full CRUD for jobs/applicants/applications/interviews, Auth0 JWT authentication on all protected endpoints, 26 integration & unit tests with Vitest, CORS locked to frontend origin, input validation with Zod</li>
+                        <li>🎯 <strong>Focus:</strong> Security, test coverage, and automated deployment</li>
+                        <li>🛠 <strong>Tech:</strong> React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Auth0, Docker, GitHub Actions</li>
+                    </ul>
+                    <a href="https://job-application-tracking-system-kry.vercel.app" target="_blank">Live</a> |{" "}
+                    <a href="https://github.com/SonalMahe/JobApplication-Tracking-System" target="_blank">GitHub</a>
+                </div>
+
+                {/* Employee Scheduling - Shift & Serve */}
+                <div className="card">
+                    <h3>Shift & Serve — Employee Scheduling</h3>
+                    <ul>
+                        <li>📌 <strong>Challenge:</strong> Giving employers and staff at food & beverage establishments an easy way to manage shifts and availability</li>
+                        <li>💡 <strong>Solution:</strong> Built a layered backend (controllers, services, routes, middleware) with Node.js, Express and Prisma on PostgreSQL, plus a React + TypeScript frontend</li>
+                        <li>✨ <strong>Features:</strong> Staff registration & credential management, shift assignment by morning/afternoon/night, employee availability by shift and day, personal schedule views</li>
+                        <li>🎯 <strong>Focus:</strong> Clean layered architecture, data validation with Zod, and structured logging with Winston</li>
+                        <li>🛠 <strong>Tech:</strong> React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Zod, Winston</li>
+                    </ul>
+                    <a href="https://github.com/SonalMahe/employee-scheduling-project" target="_blank">GitHub</a>
+                </div>
+
+                {/* Travel Itinerary Group Project */}
+                <div className="card">
+                    <h3>Travel Itinerary Planner (Group Project)</h3>
+                    <ul>
+                        <li>📌 <strong>Challenge:</strong> Collaborating across a 3-person team to build a CLI tool for planning trips, activities, and budgets</li>
+                        <li>💡 <strong>Solution:</strong> Developed a modular, service-based TypeScript architecture split across destination data, itinerary engine, and budget tracking</li>
+                        <li>✨ <strong>Features:</strong> Create trips with destinations & dates, add/sort/filter activities by day or category, calculate and flag high-cost expenses, fetch live country data (currency, flag) from an external API</li>
+                        <li>🎯 <strong>Focus:</strong> Async programming, array/data handling, and team collaboration via Git</li>
+                        <li>🛠 <strong>Tech:</strong> TypeScript, Node.js</li>
+                    </ul>
+                    <a href="https://github.com/SonalMahe/Travel-Itinerary-GroupProject" target="_blank">GitHub</a>
+                </div>
+
                 {/* Genesis Design */}
                 <div className="card">
                     <h3>Genesis Design</h3>
