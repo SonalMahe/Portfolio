@@ -5,14 +5,16 @@ import {
     FaCss3Alt,
     FaJsSquare,
     FaReact,
+    FaNodeJs,
     FaGitAlt,
     FaGithub,
     FaFigma,
     FaFacebook,
     FaInstagram,
     FaBootstrap,
+    FaDocker,
 } from "react-icons/fa";
-import { SiSass } from "react-icons/si";
+import { SiSass, SiExpress, SiMongodb, SiPrisma } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -29,6 +31,11 @@ const Skills = () => {
                 <Skill icon={<FaBootstrap />} label="Bootstrap" />
                 <Skill icon={<FaJsSquare />} label="JavaScript" />
                 <Skill icon={<FaReact />} label="React" />
+                <Skill icon={<FaNodeJs />} label="Node.js" />
+                <Skill icon={<SiExpress />} label="Express" />
+                <Skill icon={<SiMongodb />} label="MongoDB" />
+                <Skill icon={<SiPrisma />} label="Prisma" />
+                <Skill icon={<FaDocker />} label="Docker" />
                 <Skill icon={<FaGitAlt />} label="Git & GitHub" />
                 <Skill icon={<MdDesignServices />} label="UX/UI Design" />
                 <Skill icon={<SiSass />} label="Sass" />
@@ -38,7 +45,7 @@ const Skills = () => {
             <div className="connect-section">
                 <h2>Let’s Connect</h2>
                 <p>
-                    Interested in collaborating, discussing frontend development, or exploring new opportunities?
+                    Interested in collaborating, discussing full stack development, or exploring new opportunities?
                     I’m always open to connecting with fellow developers, designers, and professionals.
                     Let’s build something great together.
                 </p>

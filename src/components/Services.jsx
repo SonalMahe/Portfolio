@@ -41,6 +41,17 @@ const Services = () => {
           </div>
         </article>
 
+        <article className="services__item">
+          <div>
+            <img src="/Web.svg" alt="backend"></img>
+          </div>
+          <div className="services__title">Backend Development </div>
+          <br />
+          <div>
+            Building REST APIs with Node.js and Express, backed by MongoDB and Prisma.
+            Experience with authentication, testing, and containerizing apps with Docker.
+          </div>
+        </article>
 
       </div>
     </section>
