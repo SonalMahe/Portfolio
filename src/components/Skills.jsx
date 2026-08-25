@@ -9,8 +9,6 @@ import {
     FaGitAlt,
     FaGithub,
     FaFigma,
-    FaFacebook,
-    FaInstagram,
     FaBootstrap,
     FaDocker,
 } from "react-icons/fa";
@@ -64,20 +62,6 @@ const Skills = () => {
                         rel="Github"
                     >
                         <FaGithub /> GitHub
-                    </a>
-                    <a
-                        href="https://facebook.com/SonalArunMaheshwari"
-                        target="_blank"
-                        rel="Facebook"
-                    >
-                        <FaFacebook />Facebook
-                    </a>
-                    <a
-                        href="https://instagram.com/sonipartnersonal"
-                        target="_blank"
-                        rel="instagram"
-                    >
-                        <FaInstagram /> Instagram
                     </a>
                 </div>
             </div>
